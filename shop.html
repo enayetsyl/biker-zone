@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Byke Zone</title>
+    <title>Byke Zone Shop</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
@@ -23,24 +23,40 @@
     </script>
   </head>
   <body>
-    <header class="bg-[#264653]">
-      <div class="w-11/12 mx-auto">
+    <header>
+      <div class="w-11/12 mx-auto py-12">
         <!-- nav bar starts here -->
-        <div class="d">
+        <div class="flex flex-col justify-center items-center gap-5 md:flex-row md:justify-between">
+          <div>
+            <h3 class="text-black font-bold text-4xl">Bike Dekho</h3>
+          </div>
+         <div>
           <ul
-            class="text-white pt-11 flex flex-col justify-center items-center md:flex-row md:justify-end"
-          >
-            <li><a href="index.html">Home</a></li>
-            <li class="py-5 md:px-10"><a href="shop.html">Shop</a></li>
-            <li><a href="news.html">News</a></li>
-            <li class="py-5 md:px-10"><a href="contact.html">Contact</a></li>
-            <button class="btn bg-btn-color text-white border-btn-color">
-              Login
-            </button>
-          </ul>
+          class="text-black pt-11 flex flex-col justify-center items-center md:flex-row md:justify-end"
+        >
+          <li><a href="index.html">Home</a></li>
+          <li class="py-5 md:px-10"><a href="shop.html">Shop</a></li>
+          <li><a href="news.html">News</a></li>
+          <li class="py-5 md:px-10"><a href="contact.html">Contact</a></li>
+          <button class="btn bg-btn-color text-white border-btn-color">
+            Login
+          </button>
+        </ul>
+         </div>
         </div>
         <!-- hero section starts here -->
-        <div>
+        <div class="rounded-md bg-pink-100 mt-12">
+          <div class="py-10 px-10 lg:py-24 lg:pl-24 lg:pr-32 flex flex-col items-center gap-10 justify-between md:flex-row-reverse md:justify-between">
+            <img src="/images/others/extrabike.png" class="md:w-2/5" />
+            <div class="md:w-3/5">
+              <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold text-black">Ride-on R15 V4 <br> with Smile</h1>
+              <p class="py-6 text-[rgba(0, 0, 0, 0.80)] text-base font-light">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+              <button class="btn bg-btn-color text-white">Purchase</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div>
           <div class="hero">
             <div class="hero-content flex-col gap-10 md:flex-row-reverse">
               <img
@@ -66,7 +82,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </header>
     <main>
