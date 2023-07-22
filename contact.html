@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Byke Zone</title>
+    <title>Byke Zone Contact</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
@@ -23,50 +23,99 @@
     </script>
   </head>
   <body>
-    <header class="bg-[#264653]">
-      <div class="w-11/12 mx-auto">
+    <header>
+      <div class="w-11/12 mx-auto py-12">
         <!-- nav bar starts here -->
-        <div class="d">
+        <div class="flex flex-col justify-center items-center gap-5 md:flex-row md:justify-between">
+          <div>
+            <h3 class="text-black font-bold text-4xl">Bike Dekho</h3>
+          </div>
+         <div>
           <ul
-            class="text-white pt-11 flex flex-col justify-center items-center md:flex-row md:justify-end"
-          >
-            <li><a href="index.html">Home</a></li>
-            <li class="py-5 md:px-10"><a href="shop.html">Shop</a></li>
-            <li><a href="news.html">News</a></li>
-            <li class="py-5 md:px-10"><a href="contact.html">Contact</a></li>
-            <button class="btn bg-btn-color text-white border-btn-color">
-              Login
-            </button>
-          </ul>
+          class="text-black pt-11 flex flex-col justify-center items-center md:flex-row md:justify-end"
+        >
+          <li><a href="index.html">Home</a></li>
+          <li class="py-5 md:px-10"><a href="shop.html">Shop</a></li>
+          <li><a href="news.html">News</a></li>
+          <li class="py-5 md:px-10"><a href="contact.html">Contact</a></li>
+          <button class="btn bg-btn-color text-white border-btn-color">
+            Login
+          </button>
+        </ul>
+         </div>
         </div>
         <!-- hero section starts here -->
-        <div>
-          <div class="hero">
-            <div class="hero-content flex-col gap-10 md:flex-row-reverse">
-              <img
-                src="/images/others/feature-bike.png"
-                class="md:w-1/2 py-8"
-              />
-              <div class="text-white text-center md:w-1/2">
-                <p class="text-sm font-light pb-2">
-                  Computer-controlled digital transistorized with electronic
-                  advance
-                </p>
-                <h1 class="text-5xl font-semibold">Honda CBR 300R</h1>
-                <p class="py-6 text-base font-light text-[#e0e0e0]">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <button
-                  class="btn btn-primary bg-btn-color border-btn-color text-base font-medium px-5"
-                >
-                  Purchase
-                </button>
+        <div class="carousel mt-16 bg-pink-100">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="flex flex-col justify-center items-center py-5 px-5 gap-16 md:flex-row md:py-28 md:pl-32 md:pr-40 justify-between">
+              <div>
+                <h3 class="text-black text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
+                <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light py-6">Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br>  duis enim velit mollit.</p>
+                  <button class="btn bg-btn-color text-white font-semibold text-xl px-8 py.">Purchase</button>
               </div>
+              <div>
+                <img src="/images/slider/bike1.png" class="" />
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="flex flex-col justify-center items-center py-5 px-5 gap-16 md:flex-row md:py-28 md:pl-32 md:pr-40 justify-between">
+              <div>
+                <h3 class="text-black text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
+                <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light py-6">Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br>  duis enim velit mollit.</p>
+                  <button class="btn bg-btn-color text-white font-semibold text-xl px-8 py.">Purchase</button>
+              </div>
+              <div>
+                <img src="/images/slider/bike2.png" class="" />
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="flex flex-col justify-center items-center py-5 px-5 gap-16 md:flex-row md:py-28 md:pl-32 md:pr-40 justify-between">
+              <div>
+                <h3 class="text-black text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
+                <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light py-6">Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br>  duis enim velit mollit.</p>
+                  <button class="btn bg-btn-color text-white font-semibold text-xl px-8 py.">Purchase</button>
+              </div>
+              <div>
+                <img src="/images/slider/bike3.png" class="" />
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="flex flex-col justify-center items-center py-5 px-5 gap-16 md:flex-row md:py-28 md:pl-32 md:pr-40 justify-between">
+              <div>
+                <h3 class="text-black text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
+                <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light py-6">Amet minim mollit non deserunt ullamco <br>
+                  est sit aliqua dolor do amet sint. Velit officia consequat <br>  duis enim velit mollit.</p>
+                  <button class="btn bg-btn-color text-white font-semibold text-xl px-8 py.">Purchase</button>
+              </div>
+              <div>
+                <img src="/images/slider/bike4.png" class="" />
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
         </div>
+        <!-- hero section ends here -->
       </div>
     </header>
     <main>
@@ -80,7 +129,7 @@
             Best bike collection
           </p>
           <div
-            class="flex flex-col justify-center gap-30 md:flex-row md:justify-center-center lg:justify-between lg:gap-30"
+            class="flex flex-col justify-center gap-30 md:flex-row md:justify-center md:flex-wrap lg:justify-between lg:gap-30"
           >
             <img src="./images/slider/bike1.png" class="w-72 h-60" />
             <img src="./images/slider/bike2.png" class="w-72 h-60" /><img
@@ -190,10 +239,10 @@
         <h3 class="text-5xl font-semibold text-[#0a0826] text-center pb-14">
           Happy <span class="text-btn-color">Clients says</span>
         </h3>
-        <div class="grid gap-11 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-11 grid-cols-1 md:grid-cols-3">
           <!-- client 1 -->
           <div class="border border-solid border-[#dedede] rounded-md">
-            <div class="px-9 py-10">
+            <div class="px-3 py-10">
               <div class="flex justify-center">
                 <img
                   src="./images/others/user-1.png"
@@ -244,7 +293,7 @@
           </div>
           <!-- client 2 -->
           <div class="border border-solid border-[#dedede] rounded-md">
-            <div class="px-9 py-10 text-center">
+            <div class="px-3 py-10 text-center">
               <div class="flex justify-center">
                 <img
                   src="./images/others/user-1.png"
@@ -295,7 +344,7 @@
           </div>
           <!-- client 3 -->
           <div class="border border-solid border-[#dedede] rounded-md">
-            <div class="px-9 py-10 text-center">
+            <div class="px-3 py-10 text-center">
               <div class="flex justify-center">
                 <img
                   src="./images/others/user-1.png"
@@ -353,9 +402,9 @@
           Frequently Asked <span class="text-btn-color">Questions</span>
         </h3>
         <div
-          class="flex flex-col justify-between gap-40 md:flex-row md:justify-between"
+          class="flex flex-col justify-center gap-40 lg:flex-row lg:justify-between"
         >
-          <img src="./images/others/faq.png" class="w-96 h-auto" />
+          <img src="./images/others/faq.png" class="w-96 h-auto mx-auto" />
           <!-- arcedian start -->
           <div class="join join-vertical w-full">
             <div
